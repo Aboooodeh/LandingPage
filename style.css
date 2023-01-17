@@ -30,19 +30,20 @@ ul {
   padding: 0 30px;
 }
 
-.navbar {
+.navbar,
+.header {
   background: #1f2937;
 }
 
 .navbar .logo {
-  size: 24px;
+  font-size: 24px;
   color: #f9faf8;
   font-weight: bolder;
 }
-.navbar a {
+.navbar a,
+.header p {
   text-decoration: none;
-  size: 18px;
-  font-weight: bold;
+  font-size: 18px;
   color: #e5e7eb;
 }
 
@@ -54,4 +55,40 @@ ul {
 .navbar ul {
   display: flex;
   gap: 20px;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .container div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 400px;
+}
+
+.header h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.header button {
+  background-color: #3882f6;
+  padding: 8px 25px;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  align-self: flex-start;
+}
+
+.header img {
+  height: 250px;
+  width: 500px;
 }
