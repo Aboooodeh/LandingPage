@@ -177,3 +177,20 @@ ul {
 .signup p {
   font-weight: 300;
 }
+
+.footer {
+  height: 100px;
+  background-color: #1f2937;
+}
+.footer .container {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.footer div {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+}
